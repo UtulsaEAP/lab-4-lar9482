@@ -1,8 +1,8 @@
 """
 Complete the following python code to print the password entered by the user with the modifications described in the readme
 
-Name:
-Lab Time:
+Name: Luke Runnels
+Lab Time: 2/16/2024
 """
 
 def password_mod():
