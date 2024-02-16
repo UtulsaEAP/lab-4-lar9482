@@ -7,7 +7,17 @@ Lab Time: 2/16/2024
 
 def inc_5():
     # Write your code here
+    lowerBound = int(input())
+    upperBound = int(input())
+    if (lowerBound > upperBound):
+        print("Second integer can't be less than the first.")
+        return
     
+    output = ""
+    for i in range(lowerBound, upperBound+5, 5):
+        output += "{0} ".format(i)
+    
+    print(output)
 
 
 
